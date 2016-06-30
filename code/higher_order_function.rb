@@ -7,3 +7,12 @@ call_block do
     puts "I am inside call_block method."
 end
 
+def calculate(a,b)
+  c = yield(a,b)
+  p c
+end
+
+calculate(10,15) {
+  |a,b| 
+  b-a
+}
