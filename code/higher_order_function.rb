@@ -16,3 +16,13 @@ calculate(10,15) {
   |a,b| 
   b-a
 }
+
+#Shitty code for factorial - done to do
+def factorial
+  yield
+end
+
+n = gets.to_i
+factorial do
+  puts (1..n).inject(:*)
+end
