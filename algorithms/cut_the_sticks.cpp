@@ -6,6 +6,7 @@
 using namespace std;
 
 int main() {
+  
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */
     int N,i,item;
     // N = 6 Items = 5 4 4 2 2 8 op = 6 4 2 1
