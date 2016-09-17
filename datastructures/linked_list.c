@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+
 int num,ch,val,i;
 
 struct node
@@ -253,7 +255,7 @@ void display()
 	}
 }
 
-main()
+int main()
 {
       int flag;
 while(1)
